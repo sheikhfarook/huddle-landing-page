@@ -11,8 +11,8 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Violet: hsl(257, 40%, 49%)
-- Soft Magenta: hsl(300, 69%, 71%)
+- Violet: hsl(257, 40%, 49%) #674BAF
+- Soft Magenta: hsl(300, 69%, 71%) #E882E8
 
 ## Typography
 

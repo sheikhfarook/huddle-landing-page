@@ -1,10 +1,11 @@
-import React from "react";
-import msgIcon from "../";
+import MsgIcon from "../../assets/images/logo.svg";
 
 const HeaderIcon = () => {
   return (
     <div>
-      <img src={msgIcon} alt="" />
+      <img className="" src={MsgIcon} alt="" />
+      {/* indoi */}
+      <div></div>
     </div>
   );
 };
