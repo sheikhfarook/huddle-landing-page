@@ -3,13 +3,12 @@ import DemoPic from "../../../assets/images/Demo.svg";
 const ContactPart = () => {
   return (
     <div className="flex flex-row max-lg:flex-col max-sm:flex-col gap-16 text-white">
-      <div className="max-lg:my-5 max-sm:ml-8 max-sm:mt-10 max-sm:mr-[30px] max-sm:m-auto ml-[120px] mt-[100px] ">
+      <div className="max-lg:my-5  max-sm:mt-10 max-sm:mr-[30px] max-sm:m-auto ml-[120px] mt-[100px] ">
         <img
-          className="max-lg:w-[600px] max-lg:h-[27rem] max-sm:m-auto max-sm:w-[420px] max-sm:h-[18rem] h-[38rem] w-[53rem]"
+          className="max-lg:w-[600px] max-lg:h-[27rem]  max-sm:ml-16 max-sm:w-full  max-sm:h-[18rem] h-[38rem] w-[53rem]"
           src={DemoPic}
           alt=""
         />
-        {/* <div className="">efvvr3v</div> */}
       </div>
       <div className="max-lg:mt-[-3rem] max-lg:w-[40rem] max-lg:ml-16 max-sm:mt-[0rem] max-sm:w-[30rem]  max-sm:text-center max-sm:m-auto max-sm:space-y-3  mt-[150px] ml-10 space-y-6 w-[30rem] ">
         <h1 className=" font-poppins font-[700]  leading-[58px] text-4xl">

@@ -16,7 +16,7 @@
 @media (min-width: 375px) and (max-width: 648px) {
   body {
     background-image: url(../src/assets/images/bg-mobile.svg);
-    background-size: 100% 53%;
+    background-size: 33rem;
     background-repeat: no-repeat;
     background-color: hsl(257, 40%, 49%);
     background-position: relative;

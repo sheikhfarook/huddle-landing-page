@@ -17,7 +17,7 @@ const FooterIcon = () => {
     },
   ];
   return (
-    <div className="flex gap-5 mt-10 max-lg:mt-[-0rem] xl:mr-[7rem] max-sm:justify-center max-sm:m-auto max-sm:mt-16  justify-end mr-[5rem]">
+    <div className="flex gap-5 mt-10 max-lg:mt-[-0rem] max-sm:ml-[7rem] max-sm:justify-center max-sm:m-auto max-sm:mt-16  justify-end mr-[5rem]">
       {AppLogo?.map((icon, index) => (
         <div
           key={AppLogo?.id}
@@ -30,7 +30,7 @@ const FooterIcon = () => {
               ? "border-2 rounded-full p-2 w-9 h-9"
               : 0
           }`}>
-          <div className="">
+          <div>
             <img className="m-auto" src={icon?.facebookIcon} alt="" />
           </div>
           <div>
