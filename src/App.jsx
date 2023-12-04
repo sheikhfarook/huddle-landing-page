@@ -1,11 +1,15 @@
 // import "./App.css";
+import FooterIcon from "./components/footer/footer";
 import HeaderIcon from "./components/header/header";
+import ContactPart from "./components/header/main/main";
 
 function App() {
   return (
     <div>
-      <div className="w-[110rem] mt-10 m-auto">
+      <div>
         <HeaderIcon />
+        <ContactPart />
+        <FooterIcon />
       </div>
     </div>
   );
